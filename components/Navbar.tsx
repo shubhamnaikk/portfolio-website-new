@@ -12,6 +12,7 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
+import Link from 'next/link';
 
 const navItems = [
   { name: "Home", link: "#home" },
@@ -29,9 +30,7 @@ const Navbar = () => {
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
-          <div className="flex items-center gap-2 md:gap-4">
-            <NavbarButton>Resume</NavbarButton>
-          </div>
+          <NavbarButton href="https://drive.google.com/drive/folders/1ITw5rwD5txw2qTMkWSs5HvuOzfMKGfq_?usp=sharing">Resume</NavbarButton>
         </NavBody>
 
         {/* Mobile Navigation */}
