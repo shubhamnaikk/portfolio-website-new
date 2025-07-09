@@ -12,7 +12,6 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
-import Link from 'next/link';
 
 const navItems = [
   { name: "Home", link: "#home" },
