@@ -33,14 +33,14 @@ const Projects = () => {
           <CardContainer>
             <CardBody className="group/card p-6 rounded-xl border border-black/10 dark:border-white/20 bg-gray-50 dark:bg-black">
               <CardItem translateZ="50" className="text-xl font-bold text-neutral-700 dark:text-white">
-                React Dashboard
+                Agentic Natural Language Querying Across Structured Databases
               </CardItem>
               <CardItem as="p" translateZ="60" className="text-sm mt-2 text-neutral-500 dark:text-neutral-300">
-                Responsive admin dashboard with dynamic charts.
+                A secure, robust, multi-agent Text-to-SQL system that allows users to query structured databases using natural language while guaranteeing safety, high accuracy, and error resilience.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
                 <img
-                  src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
+                  src="website/components/assests/1.png"
                   alt="Project 1"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
@@ -48,7 +48,7 @@ const Projects = () => {
               <div className="flex justify-end mt-6">
                 <CardItem
                   as="a"
-                  href="https://yourproject1.com"
+                  href="https://github.com/shubhamnaikk/Agentic-Natural-Language-Querying-Across-Structured-Databases.git"
                   target="_blank"
                   className="px-4 py-2 rounded-md bg-black text-white text-sm font-medium dark:bg-white dark:text-black hover:opacity-90 transition"
                 >
