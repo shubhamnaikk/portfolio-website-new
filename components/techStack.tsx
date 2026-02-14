@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "motion/react"
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight"
 
@@ -51,9 +52,12 @@ export function TechHighlight() {
         <div className="grid grid-cols-5 sm:grid-cols-10 gap-4 mt-4 px-2 sm:px-0">
   {skills.map((skill) => (
     <div key={skill.name} className="flex flex-col items-center text-center">
-      <img
+      <Image
         src={skill.src}
         alt={skill.name}
+        width={48}
+        height={48}
+        unoptimized
         className="h-12 w-12 object-contain mb-1"
       />
       <span className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300">{skill.name}</span>

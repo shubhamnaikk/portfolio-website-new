@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { Cover } from "@/components/ui/cover";
@@ -39,9 +40,12 @@ const Projects = () => {
                 A secure, robust, multi-agent Text-to-SQL system that allows users to query structured databases using natural language while guaranteeing safety, high accuracy, and error resilience.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
-                  src="website/components/assests/1.png"
+                <Image
+                  src="/project-1.png"
                   alt="Project 1"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
@@ -68,9 +72,12 @@ const Projects = () => {
                 Flask + Scikit-learn REST API for predicting outcomes.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
                   alt="Project 2"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
@@ -97,9 +104,12 @@ const Projects = () => {
                 Built using Next.js, Tailwind CSS, and shadcn/ui components.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
                   alt="Project 3"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
@@ -126,9 +136,12 @@ const Projects = () => {
                 Built with Apache Airflow, PostgreSQL and dbt for stock data.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
                   alt="Project 4"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
@@ -155,9 +168,12 @@ const Projects = () => {
                 Interactive D3.js-based dashboard for exploratory data analysis.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
                   alt="Project 5"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
@@ -184,9 +200,12 @@ const Projects = () => {
                 NLP chatbot trained on custom intents and integrated with APIs.
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src="https://media.geeksforgeeks.org/wp-content/uploads/20230315175228/Top-100-Machine-Learning-Projects-with-Source-Code-2.png"
                   alt="Project 6"
+                  width={600}
+                  height={240}
+                  unoptimized
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 />
               </CardItem>
